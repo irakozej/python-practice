@@ -5,5 +5,5 @@ for word in word_list:
     if word in word_list:
         word_count += 1
     else:
-        word_count[word] = 1
-print(word_count)
+        word_count = 0
+print(f"the entered paragraph is made up by: {word_count} words")
