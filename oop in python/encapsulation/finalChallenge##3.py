@@ -21,5 +21,7 @@ class Calculator(Numbers):
 ### Do not change below this line
 
 def test_answer(num1, num2):
+    num1 = input("enter a first number: ")
+    num2 = input("enter a second number: ")
     obj = Calculator(num1, num2)
     return obj.add(), obj.multiply(), obj.subtract()

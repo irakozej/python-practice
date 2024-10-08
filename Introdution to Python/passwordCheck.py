@@ -5,3 +5,11 @@ def is_valid(username, password):
         return True
     else:
         return False
+    
+if __name__ == "__main__":
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    if is_valid(username, password):
+        print("Access granted")
+    else:
+        print("Access denied")

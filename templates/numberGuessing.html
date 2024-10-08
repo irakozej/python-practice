@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing</title>
+    <link rel="stylesheet" type="text/css" href="styles/numberGuessing.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Number Guessing</h1>
+        <p>Guess a number between 1 and 100</p>
+        <form action="index.php" method="post">
+            <input type="text" name="guess" placeholder="Enter your guess">
+            <input type="submit" value="Submit">
+        </form>
+        <p><?php echo $message; ?></p>
+    </div>
+</body>
+</html>
